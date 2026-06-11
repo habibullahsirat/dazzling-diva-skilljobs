@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-[#3D0B37]">
-      <div className="flex justify-between px-[80px] py-[48px]">
+    <footer className="bg-[#3D0B37] px-[80px] py-[48px]">
+      <div className="flex justify-between">
         <div>
           <div className="text-[#FFDD00] text-[24px] font-['Aclonica'] mb-[30px]">
             Dazzling Diva
@@ -52,18 +52,20 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t flex">
-        <div className="flex justify-between">
-          <div className="text-white font-['Inter'] text-[16px] font-semibold font-[600]">
-            Copyright &copy; <span className="text-[#FF5F39]">Orbixon</span>{" "}
-            2026. All rights reserved.
-          </div>
-          <div className="flex justify-between gap-[50px]">
-            <img src="/facebook.png" alt="" />
-            <img src="/twitter.png" alt="" />
-            <img src="/instagram.png" alt="" />
-          </div>
-          <div></div>
+      <div className="border-t-1 border-white/20 flex justify-between gap-[50px] pt-[30px]">
+        <div className="text-white font-['Inter'] text-[16px] font-semibold font-[600]">
+          Copyright &copy; <span className="text-[#FF5F39]">Orbixon</span>
+          2026. All rights reserved.
+        </div>
+        <div className="flex justify-between gap-[50px]">
+          <img src="/facebook.png" alt="" />
+          <img src="/twitter.png" alt="" />
+          <img src="/instagram.png" alt="" />
+        </div>
+        <div className="flex justify-between gap-[50px] text-white">
+          <div>Teams & Condition </div>
+          <div>Privacy & Policy</div>
+          <div>Refund Policy</div>
         </div>
       </div>
     </footer>
