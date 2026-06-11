@@ -1,14 +1,16 @@
 export default function Footer() {
   return (
     <footer className="bg-[#3D0B37] px-[80px] py-[48px]">
-      <div className="flex justify-between">
+      <div className="flex justify-between mb-[30px]">
         <div>
           <div className="text-[#FFDD00] text-[24px] font-['Aclonica'] mb-[30px]">
             Dazzling Diva
           </div>
           <div className="flex gap-[10px] text-white">
             <img src="/vector-location.png" alt="" />
-            <p>29 SE 2nd Ave, Miami Florida 33131, United States</p>
+            <p className="font-['Inter'] text-[14px] font-[300]">
+              29 SE 2nd Ave, Miami Florida 33131, United States
+            </p>
           </div>
           <div className="flex gap-[10px] text-white mb-[20px]">
             <img src="/vector-mail.png" alt="" />
