@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
 import TopBar from "../layouts/shared/TopBar";
 import NavBar from "../layouts/shared/NavBar";
+import Footer from "../layouts/shared/Footer";
 
 export default function MainLayout() {
   return (
@@ -8,6 +9,7 @@ export default function MainLayout() {
       <TopBar />
       <NavBar />
       <Outlet />
+      <Footer />
     </>
   );
 }
