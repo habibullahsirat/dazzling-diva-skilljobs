@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#3D0B37] flex justify-between px-[80px] py-[48px]">
       <div>
-        <div className="text-[#FFDD00] text-[24px] font-['Aclonica']">
+        <div className="text-[#FFDD00] text-[24px] font-['Aclonica'] mb-[30px]">
           Dazzling Diva
         </div>
         <div className="flex gap-[10px] text-white">
@@ -18,7 +18,7 @@ export default function Footer() {
       </div>
       <div className="text-white flex justify-between gap-[90px]">
         <div>
-          <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold">
+          <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold mb-[30px]">
             Shopping
           </h2>
           <p className="font-['Inter']">Whishlist</p>
@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold">
+          <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold mb-[30px]">
             Information
           </h2>
           <p className="font-['Inter']">Track My Order</p>
@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold">
+          <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold mb-[30px]">
             Account
           </h2>
           <p className="font-['Inter']">My Account</p>
