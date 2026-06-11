@@ -28,9 +28,13 @@ export default function Footer() {
             <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold mb-[30px]">
               Shopping
             </h2>
-            <p className="font-['Inter'] font-[300] text-[14px]">Wishlist</p>
-            <p className="font-['Inter'] font-[300] text-[14px]">Cart</p>
-            <p className="font-['Inter'] font-[300] text-[14px]">
+            <p className="font-['Inter'] font-[300] text-[14px] hover:text-[#FFDD00]">
+              Wishlist
+            </p>
+            <p className="font-['Inter'] font-[300] text-[14px] hover:text-[#FFDD00]">
+              Cart
+            </p>
+            <p className="font-['Inter'] font-[300] text-[14px] hover:text-[#FFDD00]">
               Shop by Category
             </p>
           </div>
@@ -39,21 +43,27 @@ export default function Footer() {
             <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold mb-[30px]">
               Information
             </h2>
-            <p className="font-['Inter'] font-[300] text-[14px]">
+            <p className="font-['Inter'] font-[300] text-[14px] hover:text-[#FFDD00]">
               Track My Order
             </p>
-            <p className="font-['Inter'] font-[300] text-[14px]">
+            <p className="font-['Inter'] font-[300] text-[14px] hover:text-[#FFDD00]">
               Corporate Enquires
             </p>
-            <p className="font-['Inter'] font-[300] text-[14px]">FAQs</p>
+            <p className="font-['Inter'] font-[300] text-[14px] hover:text-[#FFDD00]">
+              FAQs
+            </p>
           </div>
 
           <div>
             <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold mb-[30px]">
               Account
             </h2>
-            <p className="font-['Inter'] font-[300] text-[14px]">My Account</p>
-            <p className="font-['Inter'] font-[300] text-[14px]">My Orders</p>
+            <p className="font-['Inter'] font-[300] text-[14px] hover:text-[#FFDD00]">
+              My Account
+            </p>
+            <p className="font-['Inter'] font-[300] text-[14px] hover:text-[#FFDD00]">
+              My Orders
+            </p>
           </div>
         </div>
       </div>
