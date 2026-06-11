@@ -16,12 +16,31 @@ export default function Footer() {
         </div>
         <p className="text-white">(+92) 3942 7879</p>
       </div>
-      <div className="text-white">
+      <div className="text-white flex justify-between">
         <div>
-          <h2 className="text-[16px] font-[700] font-bold">Shopping</h2>
-          <p>Whishlist</p>
-          <p>Cart</p>
-          <p>Shop by Category</p>
+          <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold">
+            Shopping
+          </h2>
+          <p className="font-['Inter']">Whishlist</p>
+          <p className="font-['Inter']">Cart</p>
+          <p className="font-['Inter']">Shop by Category</p>
+        </div>
+
+        <div>
+          <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold">
+            Information
+          </h2>
+          <p className="font-['Inter']">Track My Order</p>
+          <p className="font-['Inter']">Corporate Enquires</p>
+          <p className="font-['Inter']">FAQs</p>
+        </div>
+
+        <div>
+          <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold">
+            Account
+          </h2>
+          <p className="font-['Inter']">My Account</p>
+          <p className="font-['Inter']">My Orders</p>
         </div>
       </div>
     </footer>
