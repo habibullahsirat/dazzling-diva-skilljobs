@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <div className="flex justify-between px-[84px] py-[18px] items-center">
+    <div className="flex justify-between px-[84px] py-[18px] items-center border-b border-[#3D0B37]">
       <div className="text-[#3D0B37] text-[24px] font-['Aclonica']">
         Dazzling Diva
       </div>
