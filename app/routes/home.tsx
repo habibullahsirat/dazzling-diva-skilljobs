@@ -2,8 +2,8 @@ import { DazzlingDiva } from "../welcome/DazzlingDiva";
 
 export function meta() {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Dazzling Diva" },
+    { name: "description", content: "Dazzling Diva-An online clothing store." },
   ];
 }
 
