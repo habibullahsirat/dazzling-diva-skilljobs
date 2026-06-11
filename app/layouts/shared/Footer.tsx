@@ -14,10 +14,14 @@ export default function Footer() {
           </div>
           <div className="flex gap-[10px] text-white mb-[20px]">
             <img src="/vector-mail.png" alt="" />
-            <p>info@dazzingdiva.com</p>
+            <p className="font-['Inter'] text-[14px] font-[300]">
+              info@dazzingdiva.com
+            </p>
             <img src="/vector-copy.png" alt="" />
           </div>
-          <p className="text-white">(+92) 3942 7879</p>
+          <p className="text-white font-['Geist'] text-[18px] font-[700] font-bold ">
+            (+92) 3942 7879
+          </p>
         </div>
         <div className="text-white flex justify-between gap-[90px]">
           <div>
