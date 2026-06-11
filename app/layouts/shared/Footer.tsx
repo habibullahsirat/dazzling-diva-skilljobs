@@ -51,17 +51,20 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-t">
-        <div className="text-white font-['Inter'] text-[16px] font-semibold font-[600]">
-          Copyright &copy; <span className="text-[#FF5F39]">Orbixon</span> 2026.
-          All rights reserved.
+
+      <div className="border-t flex">
+        <div className="flex justify-between">
+          <div className="text-white font-['Inter'] text-[16px] font-semibold font-[600]">
+            Copyright &copy; <span className="text-[#FF5F39]">Orbixon</span>{" "}
+            2026. All rights reserved.
+          </div>
+          <div className="flex justify-between gap-[50px]">
+            <img src="/facebook.png" alt="" />
+            <img src="/twitter.png" alt="" />
+            <img src="/instagram.png" alt="" />
+          </div>
+          <div></div>
         </div>
-        <div className="flex justify-between gap-[50px]">
-          <img src="/facebook.png" alt="" />
-          <img src="/twitter.png" alt="" />
-          <img src="/instagram.png" alt="" />
-        </div>
-        <div> </div>
       </div>
     </footer>
   );
