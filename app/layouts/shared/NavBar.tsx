@@ -4,16 +4,16 @@ export default function NavBar() {
       <div className="text-[#3D0B37] text-[24px] font-['Aclonica']">
         Dazzling Diva
       </div>
-      <div className="flex justify-between text-[16px] font-semibold font-[600] text-[#3D0B37] gap-[12px] items-center">
-        <div>Home</div>
-        <div>Shop</div>
-        <div>Three Piece</div>
-        <div>Two Piece</div>
-        <div>Hijab</div>
-        <div className="px-[18px] py-[10px] rounded-[4px] bg-[#3D0B37] text-[#FFDD00]">
+      <div className="flex justify-between text-[16px] font-semibold font-[600] font-['Geist'] text-[#3D0B37] gap-[12px] items-center">
+        <div className="hover:text-[#FFDD00]">Home</div>
+        <div className="hover:text-[#FFDD00]">Shop</div>
+        <div className="hover:text-[#FFDD00]">Three Piece</div>
+        <div className="hover:text-[#FFDD00]">Two Piece</div>
+        <div className="hover:text-[#FFDD00]">Hijab</div>
+        <div className="px-[18px] py-[10px] rounded-[4px] bg-[#3D0B37] text-[#FFDD00] text-[16px] font-[700] font-bold">
           New Arrivals
         </div>
-        <div className="px-[18px] py-[10px] rounded-[4px] bg-[#FFDD00] text-[#3D0B37]">
+        <div className="px-[18px] py-[10px] rounded-[4px] bg-[#FFDD00] text-[#3D0B37] text-[16px] font-[700] font-bold">
           Deals & Offers
         </div>
       </div>
