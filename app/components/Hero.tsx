@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="">
+    <section className="w-full">
       <div
         className="
           relative
@@ -12,6 +12,9 @@ export default function Hero() {
           bg-[url('/hero-image.png')]
           bg-cover
           bg-center
+          px-[48px]
+          py-[24px]
+          object-cover
         "
       >
         {/* Dark Overlay */}
