@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-[#3D0B37] flex justify-between">
+    <footer className="bg-[#3D0B37] flex justify-between px-[80px] py-[48px]">
       <div>
         <div className="text-[#FFDD00] text-[24px] font-['Aclonica']">
           Dazzling Diva
@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
         <p className="text-white">(+92) 3942 7879</p>
       </div>
-      <div className="text-white flex justify-between">
+      <div className="text-white flex justify-between gap-[90px]">
         <div>
           <h2 className="text-[16px] text-[#FFDD00] font-['Geist'] font-[700] font-bold">
             Shopping
